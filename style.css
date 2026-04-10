@@ -1,0 +1,46 @@
+body{
+    background-color: #f3e5ab;
+    text-align:center;
+    font-family:Arial;
+
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+
+}
+
+.menu{
+    border:3px solid brown;
+    padding:20px;
+    margin:15px;
+    background-color:white;
+    border-radius:10px;
+    width:200px;
+    transition:transform 0.3s,box-shadow 0.3s;
+
+}
+
+/*Efek hover*/
+.menu:hover{
+    transform:scale(1.05);
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+
+}
+
+img{
+    width:150px;
+    height:150px;
+    border:2px solid black;
+    border-radius:10px;
+    transition:transform 0.3s;
+
+}
+
+/*Hover pada gambar*/
+img:hover{
+    transform:scale(1.1);
+
+}
